@@ -146,7 +146,7 @@ class MedicalApp(QWidget):
         form.addRow("Neonate's name:", self.nombre)
         form.addRow("Date:", self.fecha)
         form.addRow("Age (months):", self.age)
-        form.addRow("HbA1c:", self.hba1c)
+        form.addRow("HbA1c (mmol/mol):", self.hba1c)
         form.addRow("Genetic Info:", self.genetic)
         form.addRow("Family History:", self.family)
         form.addRow("Birth Weight (kg):", self.birth_weight)
